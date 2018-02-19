@@ -1,3 +1,10 @@
+//
+// Search.js
+// (C)2018 Nicholas A. Young
+// You are free to distribute this file as you see fit as long as this 
+// original copyright is kept. 
+//
+
 $(document).ready(function(){
     // Add the function to each text box that is a filter.
     $("input[data-search-filter]").keyup(function(){
