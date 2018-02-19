@@ -10,5 +10,9 @@ This attribute is placed on the element who's value you are using to filter the 
 ### data-search-context attribute
 This attribute is used to denote the element you would like to hide when one of the targets it contains does not match the corosponding filter. You place multiple targets inside this, and if any of them do not match the entire element and it's children are hidden.
 
+This can be any element that can contain another element, a <p>, <tr>, <div>, or <span> are common elements that can be used for this purpose. 
+
 ### data-search-target attribute
 This attribute denotes a piece of data you would like to compare against the value of an element marked with data-search-filter. You give this attribute the same value as the corosponding data-search-filter. 
+
+The data that will be used to compare against the filter is the text contained inside the tags. If you would like to search on data that you do not want visible, the hidden attribute should be applied to the element with the data-search-target attribute. 
